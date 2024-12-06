@@ -22,8 +22,8 @@
 | $g_{o}$                               | go            | Residual stomatal conductance | $mol \ m^{-2} s^{-1}$ | 0.08 |
 | $g_{1}$                               | g1            | Sensitivity parameter for the stomatal conductance | $mol \ m^{-2} s^{-1}$ | 3.0 |
 | $d$                                   | leafDim       | Leaf dimension | m | 0.08 |
-| c$_{forced}$                          | cForced       | Coefficient for forced conductance | - | 0.004322 |
-| c$_{free}$                            | cFree         | Coefficient for free conductance | - | 0.001631 |
+| $c_{forced}$                          | cForced       | Coefficient for forced conductance | - | 0.004322 |
+| $c_{free}$                            | cFree         | Coefficient for free conductance | - | 0.001631 |
 | $s$                                   | s             | Ratio of stomata density on the adaxial side to that of abaxial side of the leaf | - | 0.71 |
 | energySwitch                          | energySwitch  | To simulate the energy balance | - | **True**  |
 ------ 
