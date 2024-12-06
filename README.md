@@ -121,7 +121,7 @@
 >>> |--------------------------------------|------------------|----------------------------------------------------------|------|
 >>> | $flag$                               | flag             | Flag indicating the state of the leaf                    | -    |
 >>> | $C_{bs}$                             | cbs              | Bundle sheath concentration of CO$_2$                    | $\mu mol \ mol^{-1}$ |
->>> | $C_{bs}$                             | obs              | Observed leaf parameters (generalized)                   | -    |
+>>> | $O_{bs}$                             | obs              | Observed leaf parameters (generalized)                   | $m mol \ mol^{-1}$    |
 >>> | $C_i$                                | ci               | Leaf intercellular CO$_2$ concentration                   | $\mu mol \ mol^{-1}$ |
 >>> | $C_b$                                | cb               | Chloroplast CO$_2$ concentration                         | $\mu mol \ mol^{-1}$ |
 >>> | $g_s$                                | gs               | Stomatal conductance for water vapor                     | $mol\ m^{-2} s^{-1}$ |
@@ -146,9 +146,9 @@
 >> ## LeafMassFlux
 >>> | Symbol                                | Variable name     | Description                                                | Unit |
 >>> |---------------------------------------|-------------------|------------------------------------------------------------|------|
->>> | $r_d$                                 | rd                | Respiration rate in the leaf                               | $mol \ m^{-2} s^{-1}$ |
->>> | $r_{bs}$                              | rbs               | Bundle sheath respiration rate                             | $mol \ m^{-2} s^{-1}$ |
->>> | $r_m$                                 | rm                | Mitochondrial respiration rate                             | $mol \ m^{-2} s^{-1}$ |
+>>> | $r_d$                                 | rd                | Respiration rate in the leaf                               | $\mu mol \ m^{-2} s^{-1}$ |
+>>> | $r_{bs}$                              | rbs               | Bundle sheath respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
+>>> | $r_m$                                 | rm                | Mitochondrial respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
 >>> | $J$                                   | J                 | Whole chain electron transport rate                        | $\mu mol \ m^{-2} s^{-1}$ |
 >>> | $A_{net}$                             | aNet              | Net CO$_2$ assimilation rate                               | $\mu mol \ m^{-2} s^{-1}$ |
 >>> | $A_{gross}$                           | aGross            | Gross CO$_2$ assimilation rate                             | $\mu mol \ m^{-2} s^{-1}$ |
