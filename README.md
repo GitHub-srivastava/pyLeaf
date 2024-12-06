@@ -65,11 +65,11 @@
 | NIR           | NIR             | Absorbed Near Infrared radiation                        | $W \ m^{-2}$                 |
 | LW          | long            | Absorbed Longwave radiation                             | $W \ m^{-2}$                 |
 | $e_a$            | ea              | Water vapour pressure                                   | Pa                        |
-| $T_{air}$          | tAir            | Air temperature                                         | $^\circ$C                  |
+| $T_{air}$          | tAir            | Air temperature                                         | $^o$C                  |
 | $U$          | wind            | Wind speed                                              | $m \ s^{-1}$                 |
 | $c_a$            | ca              | Atmospheric CO2 concentration                           | $ppm$  or  $\mu mol \ mol^{-1}$ |
 | $O_2$            | O2              | Atmospheric O2 concentration                            | $mmol \ mol^{-1}$            |
-| controlTemp   | controlTemp     | Fixed leaf temperature for simulation (if needed)      | $^\circ$C                  |
+| controlTemp   | controlTemp     | Fixed leaf temperature for simulation (if needed)      | $^o$C                  |
 ---
 
 > ## Validation of input excel file
