@@ -126,8 +126,8 @@
 >>> | $C_b$                                | cb               | Chloroplast CO$_2$ concentration                         | $\mu mol \ mol^{-1}$ |
 >>> | $g_s$                                | gs               | Stomatal conductance for water vapor                     | $mol\ m^{-2} s^{-1}$ |
 >>> | $T_{leaf}$                           | tLeaf            | Leaf temperature                                         | &deg;C |
->>> | $e_i$                                | ei               | Saturation vapor pressure in leaf                        | kPa  |
->>> | $e_b$                                | eb               | Vapor pressure in the leaf boundary layer                | $\mu mol \ mol^{-1}$ |
+>>> | $e_i$                                | ei               | Saturation vapor pressure in leaf                        | Pa  |
+>>> | $e_b$                                | eb               | Vapor pressure in the leaf boundary layer                | Pa |
 >>> | $g_{b,forced}$                       | gbForced         | Forced boundary layer conductance for water vapor        | $mol\ m^{-2} s^{-1}$ |
 >>> | $g_{b,free}$                         | gbFree           | Free boundary layer conductance for water vapor          | $mol\ m^{-2} s^{-1}$ |
 >>> | $g_b$                                | gb               | General boundary layer conductance for water vapor       | $mol\ m^{-2} s^{-1}$ |
