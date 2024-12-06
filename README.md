@@ -69,7 +69,7 @@
 | $U$          | wind            | Wind speed                                              | $m \ s^{-1}$                 |
 | $c_a$            | ca              | Atmospheric CO2 concentration                           | $ppm$  or  $\mu mol \ mol^{-1}$ |
 | $O_2$            | O2              | Atmospheric O2 concentration                            | $mmol \ mol^{-1}$            |
-| controlTemp   | controlTemp     | Fixed leaf temperature for simulation (if needed)      | $^{\circ}$C                 |
+| controlTemp   | controlTemp     | Fixed leaf temperature for simulation (if needed)      | &deg;C                 |
 ---
 
 > ## Validation of input excel file
@@ -125,7 +125,7 @@
 >>> | $C_i$                                | ci               | Leaf intercellular CO$_2$ concentration                   | $\mu mol \ mol^{-1}$ |
 >>> | $C_b$                                | cb               | Chloroplast CO$_2$ concentration                         | $\mu mol \ mol^{-1}$ |
 >>> | $g_s$                                | gs               | Stomatal conductance for water vapor                     | $mol\ m^{-2} s^{-1}$ |
->>> | $T_{leaf}$                           | tLeaf            | Leaf temperature                                         | $^{\circ}$C |
+>>> | $T_{leaf}$                           | tLeaf            | Leaf temperature                                         | &deg;C |
 >>> | $e_i$                                | ei               | Saturation vapor pressure in leaf                        | kPa  |
 >>> | $e_b$                                | eb               | Vapor pressure in the leaf boundary layer                | $\mu mol \ mol^{-1}$ |
 >>> | $g_{b,forced}$                       | gbForced         | Forced boundary layer conductance for water vapor        | $mol\ m^{-2} s^{-1}$ |
