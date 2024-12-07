@@ -5,10 +5,10 @@
 <span style="font-size: 20px; color: yellow;">Currently the pyLeaf only simulates the C4 leaf fluxes. Soon we will add C3 photosynthetic pathways also.</span>
 
 > ## Requirements: python packages
->> GEKKO (optimizer)
->> pandas (input-output handling)
->> numpy (data handling)
->> matplotlib (plotting)
+>> GEKKO (optimizer) \
+>> pandas (input-output handling) \
+>> numpy (data handling) \
+>> matplotlib (plotting) \
 
 > ## Parameters required to start the leaf class:
 | Symbol                                | Variable name | Description | Unit | Default Value |
