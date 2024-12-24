@@ -123,62 +123,61 @@
 
 > ## Output DataFrames
 >> ## LestState
->>> | Symbol                               | Variable name    | Description                                              | Unit |
->>> |--------------------------------------|------------------|----------------------------------------------------------|------|
->>> | $flag$                               | flag             | Flag indicating the state of the leaf                    | -    |
->>> | $C_{bs}$                             | cbs              | Bundle sheath concentration of CO$_2$                    | $\mu mol \ mol^{-1}$ |
->>> | $O_{bs}$                             | obs              | Observed leaf parameters (generalized)                   | $m mol \ mol^{-1}$    |
->>> | $C_i$                                | ci               | Leaf intercellular CO$_2$ concentration                   | $\mu mol \ mol^{-1}$ |
->>> | $C_b$                                | cb               | Chloroplast CO$_2$ concentration                         | $\mu mol \ mol^{-1}$ |
->>> | $g_s$                                | gs               | Stomatal conductance for water vapor                     | $mol\ m^{-2} s^{-1}$ |
->>> | $T_{leaf}$                           | tLeaf            | Leaf temperature                                         | &deg;C |
->>> | $e_i$                                | ei               | Saturation vapor pressure in leaf                        | Pa  |
->>> | $e_b$                                | eb               | Vapor pressure in the leaf boundary layer                | Pa |
->>> | $g_{b,forced}$                       | gbForced         | Forced boundary layer conductance for water vapor        | $mol\ m^{-2} s^{-1}$ |
->>> | $g_{b,free}$                         | gbFree           | Free boundary layer conductance for water vapor          | $mol\ m^{-2} s^{-1}$ |
->>> | $g_b$                                | gb               | General boundary layer conductance for water vapor       | $mol\ m^{-2} s^{-1}$ |
->>> | $g$                                  | g                | Combined conductance of leaf for water vapor             | $mol\ m^{-2} s^{-1}$ |
->>> | $K_o$                                | Ko               | Michaelis constant of Rubisco for O$_2$                  | $mmol \ mol^{-1}$ |
->>> | $K_c$                                | Kc               | Michaelis constant of Rubisco for CO$_2$                 | $\mu mol \ mol^{-1}$ |
->>> | $K_p$                                | Kp               | Michaelis constant of PEP carboxylase for CO$_2$         | $\mu mol \ mol^{-1}$ |
->>> | $\gamma *$                           | gammaStar        | Half reciprocal of Rubisco specificity                   | - |
->>> | $\Gamma *$                           | GammaStar        | Gamma Star parameter (CO$_2$ compensation point)         | $\mu mol \ mol^{-1}$ |
->>> | $\Gamma$                             | Gamma            | Leaf intercellular CO$_2$ concentration at compensation point | $\mu mol \ mol^{-1}$ |
->>> | $\Gamma_c$                           | Gamma_C          | Bundle sheath CO$_2$ concentration at compensation point | $\mu mol \ mol^{-1}$ |
->>> | $T_{error}$                          | Terror           | Error in leaf temperature                                | -    |
->>> | $A_{error}$                          | Aerror           | Error in net CO$_2$ assimilation rate                    | -    |
->>> | $C_{i,error}$                        | Cierror          | Error in CO$_2$ concentration                            | -    |
->>> | $g_{s,error}$                        | Gserror          | Error in stomatal conductance                            | -    |
+>> | Symbol                               | Variable name    | Description                                              | Unit |
+>> |--------------------------------------|------------------|----------------------------------------------------------|------|
+>> | $flag$                               | flag             | Flag indicating the state of the leaf                    | -    |
+>> | $C_{bs}$                             | cbs              | Bundle sheath concentration of CO$_2$                    | $\mu mol \ mol^{-1}$ |
+>> | $O_{bs}$                             | obs              | Observed leaf parameters (generalized)                   | $m mol \ mol^{-1}$    |
+>> | $C_i$                                | ci               | Leaf intercellular CO$_2$ concentration                   | $\mu mol \ mol^{-1}$ |
+>> | $C_b$                                | cb               | Chloroplast CO$_2$ concentration                         | $\mu mol \ mol^{-1}$ |
+>> | $g_s$                                | gs               | Stomatal conductance for water vapor                     | $mol\ m^{-2} s^{-1}$ |
+>> | $T_{leaf}$                           | tLeaf            | Leaf temperature                                         | &deg;C |
+>> | $e_i$                                | ei               | Saturation vapor pressure in leaf                        | Pa  |
+>> | $e_b$                                | eb               | Vapor pressure in the leaf boundary layer                | Pa |
+>> | $g_{b,forced}$                       | gbForced         | Forced boundary layer conductance for water vapor        | $mol\ m^{-2} s^{-1}$ |
+>> | $g_{b,free}$                         | gbFree           | Free boundary layer conductance for water vapor          | $mol\ m^{-2} s^{-1}$ |
+>> | $g_b$                                | gb               | General boundary layer conductance for water vapor       | $mol\ m^{-2} s^{-1}$ |
+>> | $g$                                  | g                | Combined conductance of leaf for water vapor             | $mol\ m^{-2} s^{-1}$ |
+>> | $K_o$                                | Ko               | Michaelis constant of Rubisco for O$_2$                  | $mmol \ mol^{-1}$ |
+>> | $K_c$                                | Kc               | Michaelis constant of Rubisco for CO$_2$                 | $\mu mol \ mol^{-1}$ |
+>> | $K_p$                                | Kp               | Michaelis constant of PEP carboxylase for CO$_2$         | $\mu mol \ mol^{-1}$ |
+>> | $\gamma *$                           | gammaStar        | Half reciprocal of Rubisco specificity                   | - |
+>> | $\Gamma *$                           | GammaStar        | Gamma Star parameter (CO$_2$ compensation point)         | $\mu mol \ mol^{-1}$ |
+>> | $\Gamma$                             | Gamma            | Leaf intercellular CO$_2$ concentration at compensation point | $\mu mol \ mol^{-1}$ |
+>> | $\Gamma_c$                           | Gamma_C          | Bundle sheath CO$_2$ concentration at compensation point | $\mu mol \ mol^{-1}$ |
+>> | $T_{error}$                          | Terror           | Error in leaf temperature                                | -    |
+>> | $A_{error}$                          | Aerror           | Error in net CO$_2$ assimilation rate                    | -    |
+>> | $C_{i,error}$                        | Cierror          | Error in CO$_2$ concentration                            | -    |
+>> | $g_{s,error}$                        | Gserror          | Error in stomatal conductance                            | -    |
 >> ## LeafMassFlux
->>> | Symbol                                | Variable name     | Description                                                | Unit |
->>> |---------------------------------------|-------------------|------------------------------------------------------------|------|
->>> | $r_d$                                 | rd                | Respiration rate in the leaf                               | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $r_{bs}$                              | rbs               | Bundle sheath respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $r_m$                                 | rm                | Mitochondrial respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $J$                                   | J                 | Whole chain electron transport rate                        | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{net}$                             | aNet              | Net CO$_2$ assimilation rate                               | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{gross}$                           | aGross            | Gross CO$_2$ assimilation rate                             | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{{c,CO}_2}$                        | acCO2             | CO$_2$ assimilation rate based on PEP carboxylation        | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{c,Light}$                         | acLight           | Light-limited CO$_2$ assimilation rate based on PEP carboxylation | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{{p,CO}_2}$                        | apCO2             | CO$_2$ assimilation rate based on rubisco carboxylation    | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $A_{p,Light}$                         | apLight           | Light-limited CO$_2$ assimilation rate based on rubisco carboxylation | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $L$                                   | L                 | Leaf area or leaf mass                                    | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_p$                                 | vp                | PEP carboxylation rate in the mesophyll                   | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_c$                                 | vc                | Rubisco carboxylation rate in the bundle sheath            | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{p,Light}$                         | vpLight           | Light-limited PEP carboxylation rate in the mesophyll      | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{{p,CO}_2}$                        | vpCO2             | CO$_2$-limited PEP carboxylation rate in the mesophyll     | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{c,Light}$                         | vcLight           | Light-limited Rubisco carboxylation rate in the bundle sheath | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{{c,CO}_2}$                        | vcCO2             | CO$_2$-limited Rubisco carboxylation rate in the bundle sheath | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{pmax}$                            | vpmax             | Maximum PEP carboxylation rate in the mesophyll           | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $V_{cmax}$                            | vcmax             | Maximum Rubisco carboxylation rate in the bundle sheath   | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $J_{max}$                             | jmax              | Maximum whole chain electron transport rate               | $\mu mol \ m^{-2} s^{-1}$ |
->>> | $\tau$                                | transpiration     | Water loss due to transpiration                           | $\mu mol \ m^{-2} s^{-1}$ |
+>> | Symbol                                | Variable name     | Description                                                | Unit |
+>> |---------------------------------------|-------------------|------------------------------------------------------------|------|
+>> | $r_d$                                 | rd                | Respiration rate in the leaf                               | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $r_{bs}$                              | rbs               | Bundle sheath respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $r_m$                                 | rm                | Mitochondrial respiration rate                             | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $J$                                   | J                 | Whole chain electron transport rate                        | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{net}$                             | aNet              | Net CO$_2$ assimilation rate                               | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{gross}$                           | aGross            | Gross CO$_2$ assimilation rate                             | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{{c,CO}_2}$                        | acCO2             | CO$_2$ assimilation rate based on PEP carboxylation        | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{c,Light}$                         | acLight           | Light-limited CO$_2$ assimilation rate based on PEP carboxylation | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{{p,CO}_2}$                        | apCO2             | CO$_2$ assimilation rate based on rubisco carboxylation    | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $A_{p,Light}$                         | apLight           | Light-limited CO$_2$ assimilation rate based on rubisco carboxylation | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $L$                                   | L                 | Leaf area or leaf mass                                    | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_p$                                 | vp                | PEP carboxylation rate in the mesophyll                   | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_c$                                 | vc                | Rubisco carboxylation rate in the bundle sheath            | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{p,Light}$                         | vpLight           | Light-limited PEP carboxylation rate in the mesophyll      | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{{p,CO}_2}$                        | vpCO2             | CO$_2$-limited PEP carboxylation rate in the mesophyll     | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{c,Light}$                         | vcLight           | Light-limited Rubisco carboxylation rate in the bundle sheath | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{{c,CO}_2}$                        | vcCO2             | CO$_2$-limited Rubisco carboxylation rate in the bundle sheath | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{pmax}$                            | vpmax             | Maximum PEP carboxylation rate in the mesophyll           | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $V_{cmax}$                            | vcmax             | Maximum Rubisco carboxylation rate in the bundle sheath   | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $J_{max}$                             | jmax              | Maximum whole chain electron transport rate               | $\mu mol \ m^{-2} s^{-1}$ |
+>> | $\tau$                                | transpiration     | Water loss due to transpiration                           | $\mu mol \ m^{-2} s^{-1}$ |
 >> ## LeafEnergyFlux
->>> | Symbol                                | Variable name     | Description                                                | Unit |
->>> |---------------------------------------|-------------------|------------------------------------------------------------|------|
->>> | $H$                                   | H                 | Sensible heat flux out of the leaf                         | $W m^{-2}$ |
->>> | $LE$                                  | LE                | Latent heat flux out of the leaf                           | $W m^{-2}$ |
->>> | $LW_e$                                | emission          | Emitted bi-directional long-wave radiation flux            | $W m^{-2}$ |
->>> | $R_n$                                  | radiation         | Radiative flux emitted by the leaf                         | $W m^{-2}$ |
->>> | $res$                                  | residual          | Residual energy in the leaf                                | $W m^{-2}$ |
-
+>> | Symbol                                | Variable name     | Description                                                | Unit |
+>> |---------------------------------------|-------------------|------------------------------------------------------------|------|
+>> | $H$                                   | H                 | Sensible heat flux out of the leaf                         | $W m^{-2}$ |
+>> | $LE$                                  | LE                | Latent heat flux out of the leaf                           | $W m^{-2}$ |
+>> | $LW_e$                                | emission          | Emitted bi-directional long-wave radiation flux            | $W m^{-2}$ |
+>> | $R_n$                                  | radiation         | Radiative flux emitted by the leaf                         | $W m^{-2}$ |
+>> | $res$                                  | residual          | Residual energy in the leaf                                | $W m^{-2}$ |
