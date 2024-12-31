@@ -1,6 +1,6 @@
-# **pyLeaf1.0**: *Class based python code to simulate the leaf scale fluxes based on surrounding microenvironment*
+# **pyLeaf1.0**: *Class based python code to simulate the leaf scale fluxes based on the surrounding microenvironment*
 
-## This code is an improvement to the matlab code used in my publication [(Link)](https://doi.org/10.1111/pce.14821)
+## This code is an improvement to the Matlab code used in my publication [(Link)](https://doi.org/10.1111/pce.14821)
 
 <span style="font-size: 20px; color: yellow;">Currently the pyLeaf only simulates the C4 leaf fluxes. Soon we will add C3 photosynthetic pathways also.</span>
 
@@ -8,7 +8,7 @@
 >> **GEKKO** (optimizer) \
 >> **pandas** (input-output handling) \
 >> **numpy** (data handling) \
->> **matplotlib** (plotting) \
+>> **matplotlib** (plotting)
 
 > ## Parameters required to start the leaf class:
 | Symbol                                | Variable name | Description | Unit | Default Value |
@@ -78,8 +78,8 @@
 | controlTemp   | controlTemp     | Fixed leaf temperature for simulation (if needed)      | &deg;C                 |
 ---
 
-> ## Validation of input excel file
-> #### In the table above you can see the variables required to run **pyLeaf**. You can use the method **ValidateInput()** to verify that whether your input is correct. See the code below
+> ## Validation of input Excel file
+> #### In the table above you can see the variables required to run **pyLeaf**. You can verify your input using the method **ValidateInput()**. See the code below
 >>```python
 >>import pyLeaf
 >>import pandas as pd
@@ -90,7 +90,7 @@
 >>C4Leaf.ValidateInput(Weather)
 
 > ## Running the model
-> ### Here is a ample code example to run **pyLeaf**
+> ### Here is a sample code example to run **pyLeaf**
 >>```python
 >> import pandas as pd
 >> import matplotlib.pyplot as plt
