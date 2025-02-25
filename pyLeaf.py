@@ -239,7 +239,7 @@ class Leaf:
         self.__vc = min(self.__vcCO2, self.__vcLight)
         
         # Oxygen Calculation
-        self.__obs = self.alpha * self.__aNet / (0.047 * self.gbs) + Weather['O2']  # O2 conc. at bundle sheath [u moles mole^-1]
+        self.__obs = self.alpha * self.__aNet / (0.047 * self.gbs * 1000) + Weather['O2']  # O2 conc. at bundle sheath [u moles mole^-1]
         self.__vpLight = self.x * self.__J / 2
         self.__vpCO2 = min(self.__ci * self.__vpmax / (self.__ci + self.__Kp), 100)
         self.__vp = min(self.__vpLight, self.__vpCO2)
